@@ -121,6 +121,7 @@ final mahjongRiichiConfig = GameConfig(
     ],
   seedColor: const Color(0xFF9A2F2F),
   icon: Icons.flag,
+  extraModes: [lessonMode(LessonCourse.riichi)],
   rules: mahjongRiichiRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
@@ -240,6 +241,7 @@ final mahjongHongkongConfig = GameConfig(
     ],
   seedColor: const Color(0xFFC8322B),
   icon: Icons.local_florist,
+  extraModes: [lessonMode(LessonCourse.hongKong)],
   rules: mahjongHongkongRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
@@ -359,6 +361,7 @@ final mahjongUcluConfig = GameConfig(
     ],
   seedColor: const Color(0xFF7A4B9A),
   icon: Icons.change_history,
+  extraModes: [lessonMode(LessonCourse.riichi)],
   rules: mahjongUcluRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
